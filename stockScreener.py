@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-def PE_Times_PBV(totalShares,pricePerShare): #THIS FUNCTION CAN BE IMPROVED. NEEDS A LOT OF WORK.
+def PE_Times_PBV(totalShares,pricePerShare): #THIS FUNCTION CAN BE IMPROVED. NEEDS A LOT OF WORK. NOT THAT GOOD.
     
     incomeData=pd.read_csv("fedExIncomeStatement.csv") #Read the Income Statement file.
     balanceData=pd.read_csv("fedexBalanceSheet.csv") #Read the Balance Sheet file.
